@@ -2,8 +2,7 @@
 
 ## Introduction
 
-Imagine being a Key Opinion Leader (KOL) in Web3, struggling to keep up with the latest research while your followers expect you to stay ahead of the curve. Falling behind isn’t an option.
-
+Imagine being a Key Opinion Leader (KOL) in Web3, struggling to keep up with the latest research while your followers expect you to stay ahead of the curve. Falling behind isn’t an option. This also applies to end users and builder
 This project introduces a Web3 AI librarian, an intelligent assistant designed to track, analyze, and deliver insights on the latest developments in Web3 projects. Using an Agentic workflow, it autonomously searches for relevant information, ensuring you stay informed without the hassle of sifting through endless papers.
 
 ## Overview
@@ -18,16 +17,17 @@ Our AI uses the user's question to select relevant files from the database, retr
 
 
 ### Using our project:
-- Upload your PDF files to the `data` folder, now limited to whitepapers only.
+- Upload your PDF files to the `data` folder (now limited to whitepapers only).
 - Use command langgraph dev to run UI locally (https://langchain-ai.github.io/langgraph/how-tos/local-studio/#install-langgraph-cli)
 
 ## Future Work:
-- Use Open Source LLM
-- Use Nillion for secure database
-- Find the way to update the database efficiently
-- Add a Chat Interface UI
-- Optimize pdf extraction, incl. summarization
+For instance,
+1. Add a Chat Interface UI, so that non-builders can easily use our AI.
+2. Find the way to update the database efficiently e.g. automatic update the information.
+3. Optimize Agentic Workflow, which is already scalable thanks to LangGraph.
+4. Use Open Source LLM, after we have addressed most of the issues i.e. input length limitations
+5. Use Nillion SDK for building private AI
 
 ## Acknowledgements:
-- [LangSmith](https://smith.langchain.com/) for the AI Agent framework
+- [LangGraph](https://www.langchain.com/langgraph) for the AI Agent framework
 - [Tavily](https://tavily.com/) inspired us the AI Agent coding structure
