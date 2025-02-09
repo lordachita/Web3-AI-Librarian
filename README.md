@@ -18,7 +18,7 @@ Our AI uses the user's question to select relevant files from the database, retr
 
 ### Using our project:
 - Upload your PDF files to the `data` folder (now limited to whitepapers only).
-- Use command langgraph dev to run UI locally (https://langchain-ai.github.io/langgraph/how-tos/local-studio/#install-langgraph-cli)
+- Use command `langgraph dev` to run UI locally (https://langchain-ai.github.io/langgraph/how-tos/local-studio/#install-langgraph-cli)
 
 ## Future Work:
 For instance,
