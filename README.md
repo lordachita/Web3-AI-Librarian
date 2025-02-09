@@ -21,6 +21,7 @@ Our AI uses the user's question to select relevant files from the database, retr
 1. Upload your PDF files to the `data` folder (now limited to whitepapers only).
 2. Set up configs in `configs`.
 3. Use `main.ipynb` to easily interact with our AI.
+![Alt text](https://raw.githubusercontent.com/lordachita/Web3-AI-Librarian/refs/heads/main/image/ipynb.png)
 4. Also, you can use command `langgraph dev` to [run UI interface locally](https://langchain-ai.github.io/langgraph/how-tos/local-studio/#install-langgraph-cli)
 ![Alt text](https://raw.githubusercontent.com/lordachita/Web3-AI-Librarian/refs/heads/main/image/langsmith%20ui.png)
 
