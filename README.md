@@ -2,7 +2,8 @@
 
 ## Introduction
 
-Imagine being a Key Opinion Leader (KOL) in Web3, struggling to keep up with the latest research while your followers expect you to stay ahead of the curve. Falling behind isn’t an option. This also applies to end users and builder
+Imagine being a Key Opinion Leader (KOL) in Web3, struggling to keep up with the latest research while your followers expect you to stay ahead of the curve. Falling behind isn’t an option. 
+The same challenge applies to end users and builders who need to stay informed in this rapidly evolving space.
 This project introduces a Web3 AI librarian, an intelligent assistant designed to track, analyze, and deliver insights on the latest developments in Web3 projects. Using an Agentic workflow, it autonomously searches for relevant information, ensuring you stay informed without the hassle of sifting through endless papers.
 
 ## Overview
@@ -17,8 +18,10 @@ Our AI uses the user's question to select relevant files from the database, retr
 
 
 ### Using our project:
-- Upload your PDF files to the `data` folder (now limited to whitepapers only).
-- Use command `langgraph dev` to run UI locally (https://langchain-ai.github.io/langgraph/how-tos/local-studio/#install-langgraph-cli)
+1. Upload your PDF files to the `data` folder (now limited to whitepapers only).
+2. Set up configs in `configs`.
+3. Use `main.ipynb` to easily interact with our AI.
+4. Also, you can use command `langgraph dev` to [run UI interface locally](https://langchain-ai.github.io/langgraph/how-tos/local-studio/#install-langgraph-cli)
 
 ## Future Work:
 For instance,
